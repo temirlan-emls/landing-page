@@ -1,0 +1,132 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap");
+
+* {
+    user-select: none;
+}
+body {
+    position: relative;
+
+    width: 100%;
+    height: 100vh;
+
+    background-color: rgba(7, 7, 7);
+    color: rgba(200, 200, 200);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-family: "Roboto Mono", monospace;
+
+    overflow: hidden;
+}
+
+a {
+    display: block;
+    width: 100%;
+    height: 100%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    cursor: pointer;
+    text-decoration: none !important;
+    color: inherit;
+}
+
+.main-container {
+    width: 40%;
+    height: 40%;
+
+    border: 0.5px solid rgba(150, 150, 150);
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+
+    background-color: rgba(10, 10, 10);
+    box-shadow: none;
+
+    transition: 0.5s ease-in-out;
+}
+
+.main-container:hover {
+    box-shadow: rgba(7, 7, 7) 10px -10px 0px -1px, rgb(31, 193, 27) 10px -10px,
+        rgba(7, 7, 7) 20px -20px 0px -1px, rgb(255, 217, 19) 20px -20px,
+        rgba(7, 7, 7) 30px -30px 0px -1px, rgb(255, 156, 85) 30px -30px,
+        rgba(7, 7, 7) 40px -40px 0px -1px, rgb(255, 85, 85) 40px -40px;
+}
+
+.hero-text {
+    width: 100%;
+    height: 60%;
+
+    display: grid;
+    justify-content: center;
+    align-content: center;
+
+    font-size: 4.2vw;
+}
+
+.btn-container {
+    width: 100%;
+    height: 40%;
+
+    display: grid;
+    grid-auto-flow: column;
+
+    overflow: hidden;
+}
+
+button {
+    background-color: rgba(15, 15, 15, 0);
+    color: rgba(200, 200, 200);
+
+    font-family: "Roboto Mono", monospace;
+
+    transition: 0.2s ease-out;
+    font-size: 1.5vw;
+
+    border: 0.5px solid rgba(150, 150, 150);
+    border-bottom: none;
+}
+
+button:hover {
+    background-color: rgba(30, 30, 30);
+    transform: translateY(0.3rem);
+}
+
+@media screen and (max-width: 650px) {
+    .main-container {
+        width: 70%;
+
+        box-shadow: rgba(7, 7, 7) 10px -10px 0px -1px,
+            rgb(31, 193, 27) 10px -10px, rgba(7, 7, 7) 20px -20px 0px -1px,
+            rgb(255, 217, 19) 20px -20px, rgba(7, 7, 7) 30px -30px 0px -1px,
+            rgb(255, 156, 85) 30px -30px, rgba(7, 7, 7) 40px -40px 0px -1px,
+            rgb(255, 85, 85) 40px -40px;
+    }
+
+    .hero-text {
+        font-size: 7vw;
+    }
+
+    button {
+        font-size: 3vw;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    button {
+        font-size: 2vw;
+    }
+}
+
+.footer-text {
+    position: absolute;
+    bottom: 2rem;
+
+    color: rgba(75, 75, 75);
+}
