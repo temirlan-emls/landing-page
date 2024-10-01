@@ -9,7 +9,7 @@ body {
     position: relative;
 
     min-width: 100%;
-    min-height: 100vh;
+    min-height: 95vh;
 
     background-color: rgba(7, 7, 7);
     color: rgba(200, 200, 200);
@@ -135,28 +135,20 @@ button:hover {
         box-shadow: none;
     }
     25% {
-        box-shadow: rgba(7, 7, 7) 0px 0px 0px 19px,
-            rgb(125, 125, 125) 0px 0px 0px 20px, rgba(7, 7, 7) 0px 0px 0px 39px,
-            rgb(100, 100, 100) 0px 0px 0px 40px, rgba(7, 7, 7) 0px 0px 0px 59px,
-            rgb(75, 75, 75) 0px 0px 0px 60px, rgba(7, 7, 7) 0px 0px 0px 79px,
-            rgb(50, 50, 50) 0px 0px 0px 80px, rgba(7, 7, 7) 0px 0px 0px 99px,
-            rgb(25, 25, 25) 0px 0px 0px 100px;
+        box-shadow: rgba(7, 7, 7) 0px 0px 0px 9px,
+            rgb(125, 125, 125) 0px 0px 0px 10px, rgba(7, 7, 7) 0px 0px 0px 19px,
+            rgb(100, 100, 100) 0px 0px 0px 20px, rgba(7, 7, 7) 0px 0px 0px 29px,
+            rgb(75, 75, 75) 0px 0px 0px 30px, rgba(7, 7, 7) 0px 0px 0px 39px,
+            rgb(50, 50, 50) 0px 0px 0px 40px, rgba(7, 7, 7) 0px 0px 0px 49px,
+            rgb(25, 25, 25) 0px 0px 0px 50px;
     }
     50% {
-        box-shadow: rgba(7, 7, 7) 0px 0px 0px 19px,
-            rgb(125, 125, 125) 0px 0px 0px 20px, rgba(7, 7, 7) 0px 0px 0px 39px,
-            rgb(100, 100, 100) 0px 0px 0px 40px, rgba(7, 7, 7) 0px 0px 0px 59px,
-            rgb(75, 75, 75) 0px 0px 0px 60px, rgba(7, 7, 7) 0px 0px 0px 79px,
-            rgb(50, 50, 50) 0px 0px 0px 80px, rgba(7, 7, 7) 0px 0px 0px 99px,
-            rgb(25, 25, 25) 0px 0px 0px 100px;
-    }
-    75% {
-        box-shadow: rgba(7, 7, 7) 0px 0px 0px 19px,
-            rgb(125, 125, 125) 0px 0px 0px 20px, rgba(7, 7, 7) 0px 0px 0px 39px,
-            rgb(100, 100, 100) 0px 0px 0px 40px, rgba(7, 7, 7) 0px 0px 0px 59px,
-            rgb(75, 75, 75) 0px 0px 0px 60px, rgba(7, 7, 7) 0px 0px 0px 79px,
-            rgb(50, 50, 50) 0px 0px 0px 80px, rgba(7, 7, 7) 0px 0px 0px 99px,
-            rgb(25, 25, 25) 0px 0px 0px 100px;
+        box-shadow: rgba(7, 7, 7) 0px 0px 0px 9px,
+            rgb(125, 125, 125) 0px 0px 0px 10px, rgba(7, 7, 7) 0px 0px 0px 19px,
+            rgb(100, 100, 100) 0px 0px 0px 20px, rgba(7, 7, 7) 0px 0px 0px 29px,
+            rgb(75, 75, 75) 0px 0px 0px 30px, rgba(7, 7, 7) 0px 0px 0px 39px,
+            rgb(50, 50, 50) 0px 0px 0px 40px, rgba(7, 7, 7) 0px 0px 0px 49px,
+            rgb(25, 25, 25) 0px 0px 0px 50px;
     }
     100% {
         box-shadow: none;
