@@ -1,10 +1,10 @@
-version: '3'
+version: "3"
 
 services:
   nginx:
-    container_name: nginx
-    build: .
+    image: nginx:latest
+    volumes:
+      - ./landing-page/:/usr/share/nginx/html/
     ports:
-      - 80:80
-      - 443:443
-    restart: always
+      - "80:80"
+      - "443:443"

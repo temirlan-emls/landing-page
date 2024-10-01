@@ -1,1 +1,1 @@
-# simple landing page for personal page
+Simple landing page for personal site
